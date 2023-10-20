@@ -9,10 +9,10 @@ df = pd.DataFrame(data)
 print(df)
 
 # Pregunta 2
-df_personas_perecieron = df[df['is_dead'] == 1]['is_dead']
+df_personas_perecieron = df[df['is_dead'] == 1]
 print(df_personas_perecieron)
 
-df_personas_no_perecieron = df[df['is_dead'] == 0]['is_dead']
+df_personas_no_perecieron = df[df['is_dead'] == 0]
 print(df_personas_no_perecieron)
 
 # Pregunta 3
